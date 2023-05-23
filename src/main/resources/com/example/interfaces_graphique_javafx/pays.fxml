@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0" prefWidth="804.0" style="-fx-background-color: #4E4E4E;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.interfaces_graphique_javafx.Exo2Controller">
+   <children>
+      <TableView id="Table" layoutX="37.0" layoutY="18.0" prefHeight="502.0" prefWidth="729.0" style="-fx-border-color: goldenrod; -fx-background-color: #FFFFFF; -fx-border-width: 3px;">
+        <columns>
+          <TableColumn prefWidth="75.0" text="CodeValue" />
+          <TableColumn prefWidth="103.99993896484375" text="AlternateName" />
+            <TableColumn prefWidth="98.4000244140625" text="CountryGroup" />
+            <TableColumn prefWidth="76.79998779296875" text="NameEN" />
+            <TableColumn prefWidth="76.79998779296875" text="NameFR" />
+            <TableColumn prefWidth="76.79998779296875" text="NameDE" />
+            <TableColumn prefWidth="103.20001220703125" text="Latitude" />
+            <TableColumn prefWidth="113.59991455078125" text="Longitude" />
+        </columns>
+      </TableView>
+   </children>
+</Pane>

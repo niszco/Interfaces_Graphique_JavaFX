@@ -7,12 +7,12 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class HelloApplication extends Application {
+public class Exo2App extends Application{
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 800, 600);
-        stage.setTitle("Hello!");
+        FXMLLoader fxmlLoader = new FXMLLoader(Exo2App.class.getResource("pays.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 800, 800);
+        stage.setTitle("Tableau de pays");
         stage.setScene(scene);
         stage.show();
     }
@@ -21,3 +21,5 @@ public class HelloApplication extends Application {
         launch();
     }
 }
+
+
